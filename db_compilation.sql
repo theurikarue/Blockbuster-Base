@@ -14,7 +14,7 @@ CREATE TABLE store(
     store_id INT AUTO_INCREMENT,
     store_name VARCHAR(65),
     store_phone_number INT,
-    store_address INT,
+    store_address VARCHAR(65),
 
     PRIMARY KEY(store_id)
 );
