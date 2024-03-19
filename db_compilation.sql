@@ -12,10 +12,12 @@ CREATE TABLE distributor(
 
 CREATE TABLE store(
     store_id INT AUTO_INCREMENT,
+    distributor_id INT,
     store_name VARCHAR(65),
     store_phone_number INT,
     store_address VARCHAR(65),
 
+    FOREIGN KEY(distributor_id) REFERENCES distributor(distributor_id),
     PRIMARY KEY(store_id)
 );
 

@@ -1,4 +1,4 @@
-# FlickFinder
+# Blockbuster Base
 ## USAGE FOR DOCKER USERS
 1. Run the following command to pull the mysql image
 ```bash
